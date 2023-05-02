@@ -1,0 +1,18 @@
+{
+    "name": "@johanmnto/gougloujs",
+    "version": "1.0.0",
+    "description": "GlouGlou's REST API ported to JavaScript.",
+    "entry": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "author": {
+        "email": "me@johanmontorfano.com",
+        "name": "Johan Montorfano",
+        "url": "https://johanmontorfano.com"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.4"
+    },
+    "scripts": {
+        "build": "tsc"
+    }
+}
