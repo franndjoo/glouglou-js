@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "GlouGlou's REST API ported to JavaScript.",
     "entry": "./dist/index.js",
+    "private": "false",
     "types": "./dist/index.d.ts",
     "author": {
         "email": "me@johanmontorfano.com",
