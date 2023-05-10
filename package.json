@@ -1,9 +1,11 @@
 {
     "name": "@johanmnto/glougloujs",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "GlouGlou's REST API ported to JavaScript.",
     "entry": "./dist/index.js",
     "types": "./dist/index.d.ts",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
     "author": {
         "email": "me@johanmontorfano.com",
         "name": "Johan Montorfano",
