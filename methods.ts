@@ -7,7 +7,8 @@ export async function sendEmail(config: Configuration, email: Email) {
         "api-key": config.apiKey,
         "to": `${email.recipient.name} <${email.recipient.email}>`,
         "subject": email.subject,
-        "body": email.body
+        "body": email.body,
+        ...(email.cc !== undefined ? { "cc": `${email.cc.name} <${email.cc.email}>` } : "")
     });
     return await sendRequest(composedURL);
 }

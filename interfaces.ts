@@ -12,6 +12,10 @@ export interface Email {
         name: string,
         email: string
     },
+    cc?: {
+        name: string,
+        email: string
+    },
     subject: string,
     body: string
 }

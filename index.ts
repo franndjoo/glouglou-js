@@ -1,5 +1,5 @@
-import { sendEmail, verifyAPIKey, pingInstance } from "./src/methods";
-import { Configuration, Email } from "./src/interfaces";
+import { sendEmail, verifyAPIKey, pingInstance } from "./methods";
+import { Configuration, Email } from "./interfaces";
 
 export { sendEmail, verifyAPIKey, pingInstance };
 export { Configuration, Email };
