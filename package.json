@@ -1,5 +1,5 @@
 {
-    "name": "@johanmnto/gougloujs",
+    "name": "@johanmnto/glougloujs",
     "version": "1.0.0",
     "description": "GlouGlou's REST API ported to JavaScript.",
     "entry": "./dist/index.js",
