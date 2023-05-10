@@ -8,6 +8,5 @@
     "allowJs": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["index.ts"],
-  "exclude": ["./dist", "./tests", "./src"]
+  "include": ["./src/index.ts"]
 }
