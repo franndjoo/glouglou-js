@@ -1,6 +1,6 @@
 {
     "name": "@johanmnto/glougloujs",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "GlouGlou's REST API ported to JavaScript.",
     "entry": "./dist/index.js",
     "types": "./dist/index.d.ts",

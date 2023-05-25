@@ -8,6 +8,7 @@ export async function sendEmail(config: Configuration, email: Email, optionnalPa
         "to": `${email.recipient.name} <${email.recipient.email}>`,
         "subject": email.subject,
         "body": email.body,
+        "from-name": email.fromName,
         ...(email.cc !== undefined ? { "cc": `${email.cc.name} <${email.cc.email}>` } : ""),
         ...optionnalParams
     });
